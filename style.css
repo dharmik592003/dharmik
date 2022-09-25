@@ -1,0 +1,485 @@
+/* for small mobiles 300px to 400px */
+@media (max-width:400px) {
+
+    .main {
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+        display: flex;
+        width: 300px;
+        height: 600px;
+    }
+
+    .nav li {
+        margin-left: 25px;
+        font-size: inherit;
+        list-style: none;
+        text-align: justify;
+        padding-top: 18px;
+        padding-bottom: 10px;
+    }
+
+    .nav {
+        width: 100px;
+        color: rgba(196, 194, 190, 0.823);
+        height: 600px;
+        position: relative;
+        lefT: 0;
+        top: 0;
+        right: auto;
+        bottom: 0;
+        display: inline-block;
+        z-index: 3;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo img {
+        width: 100px
+    }
+
+
+    .text h2 {
+        margin: 0px;
+    }
+
+
+
+    div.contant {
+        margin-left: 0px;
+        height: 789px;
+        position: relative;
+        display: block;
+
+    }
+
+    video.bg {
+        margin-left: 0px;
+        display: flex;
+        top: 0;
+        right: 0;
+        height: 700px;
+        width: 494px;
+        z-index: -2;
+
+
+    }
+
+    div.info{
+        left: -50px;
+    }
+
+    div.info h1 {
+        margin-bottom: 0px;
+        margin-top: 50px;
+        margin-left: 0px;
+        font-size: 20px;
+        text-align: left;
+    }
+
+
+    div.info p {
+        box-sizing: border-box;
+        margin: 0px;
+        padding-left: 5px;
+        font-size: 15px;
+        text-align: left;
+    }
+
+
+
+    a .btn1 {
+        height: 30px;
+        margin-left: 159px;
+        font-size: 15px;
+        padding: 5px;
+        margin-top: 20px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  
+    overflow-x: hidden;
+    margin: 0px;
+    background-color: black;
+}
+
+
+
+.main {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    display: flex;
+}
+
+aside {
+    /* border: 2px solid red; */
+    color: rgba(196, 194, 190, 0.823);
+    position: fixed;
+    lefT: 0;
+    top: 0;
+    right: auto;
+    bottom: 0;
+    display: flex;
+    z-index: 3;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.text h2 {
+    padding: 1vh;
+    text-align: center;
+}
+
+.text h2:hover {
+    color: rgb(0, 255, 255);
+}
+
+
+aside img {
+    border: 1px solid rgba(196, 194, 190, 0.823);
+    font-size: inherit;
+    position: sticky;
+    width: 150px;
+
+}
+
+aside ul {
+    padding-left: 0;
+}
+
+aside li {
+    font-size: 20px;
+    list-style: none;
+    text-align: justify;
+    padding-top: 40px;
+    padding-bottom: 10px;
+
+}
+
+aside li a {
+    color: rgba(196, 194, 190, 0.823);
+    text-decoration: none;
+
+}
+
+aside li a:hover {
+    text-decoration: none;
+    color: rgb(0, 255, 255);
+}
+
+aside img {
+    filter: invert(100%);
+}
+
+.fb img {
+    padding-left: 0px;
+    height: 64px;
+    margin: 0px;
+    width: 64px;
+}
+
+.insta img {
+    padding-left: 0px;
+    width: 61px;
+    height: 61px;
+}
+
+
+
+/* aside bar completed */
+
+
+.contant {
+    margin-left: 10rem;
+    height: 789px;
+    position: relative;
+    display: block;
+
+}
+
+.bg {
+
+    display: flex;
+    top: 0;
+    right: 0;
+    height: 789px;
+    width: 1300px;
+    z-index: -2;
+}
+
+.bg video {
+    box-sizing: border-box;
+}
+
+.info {
+    background-color: none;
+    z-index: 1;
+    top: 200px;
+    position: absolute;
+    height: 400.6px;
+    width: 500px;
+
+}
+
+
+.info h1 {
+    margin: 0px;
+    text-align: left;
+    font-size: 40px;
+    white-space: pre;
+    padding: 0px;
+    color: white;
+}
+
+
+
+.info h1:hover {
+    color: rgb(0, 255, 255);
+}
+
+
+.btn1 {
+    cursor: pointer;
+    color: white;
+    border: 2px solid white;
+    background: transparent;
+    padding: 10px;
+    margin-left: 350px;
+    margin-top: 20px;
+    font: bold;
+    font-size: large;
+}
+
+.btn1:hover {
+    color: rgb(0, 255, 255);
+    text-decoration: underline;
+    border: 2px solid rgb(0, 255, 255);
+    ;
+}
+
+/* 
+.about {
+    margin-left: 10rem;
+    border: 2px solid red;
+    color: white;
+}
+
+.skill {
+    display: inline-flex;
+    color: white;
+    margin-left: 10rem;
+    border: 2px solid purple;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* From this  about me page css */
+
+.info p {
+    margin-left: 10px;
+    padding: 20px;
+    padding-top: 0px;
+    color: white;
+    font-size: 20px;
+}
+
+.info h1 {
+    margin-left: 20px;
+}
+
+/* .me p {
+    margin-left: 10px;
+} */
+
+.info a {
+    text-decoration: none;
+    color: rgb(0, 255, 255);
+}
+
+
+
+
+
+/* From this  Skills page css */
+
+
+
+
+
+
+.backgroud {
+
+    display: flex;
+}
+
+.background video {
+    z-index: -1;
+}
+
+
+.row {
+    
+    background-color: black;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    top: 0;
+    margin-top: 200px;
+    margin-left: 200px;
+
+}
+
+.row  img {
+    padding: 10px;
+    margin-left: 100px;
+    height: 100px;
+}
+
+.row a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.row h2 {
+    padding: 10px;
+    border: 1px solid rgba(196, 194, 190, 0.823);
+}
+
+
+/* Clear floats after the columns */
+/* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+/* Create three equal columns that floats next to each other */
+.column {
+    border: 2px solid rgba(196, 194, 190, 0.823) ;
+    background-color: black;
+    width: 300px;
+    padding: 10px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
+}
+
+
+
+
+
+
+
+
+
+/* From this  contact me page css */
+
+
+
+
+
+
+.contact {
+    display: flex;
+    color: white;
+    margin-left: 10rem;
+
+}
+
+
+
+
+.contact h2:hover {
+    color: rgb(0, 255, 255);
+}
+
+
+.location {
+    margin-top: 0px;
+    margin-left: 700px;
+}
+
+.location iframe {
+    filter: invert(100%) sepia(85%) hue-rotate(140deg) saturate(200%);
+    z-index: 1;
+    right: 0px;
+    top: 0px;
+    display: block;
+    position: fixed;
+    height: 789px;
+    width: 670px;
+    display: flex;
+}
+
+
+.contact {
+    z-index: 2;
+    width: 400px;
+    padding-left: 50px;
+    color: rgba(196, 194, 190, 0.823);
+    display: grid;
+    font-size: 20px;
+    padding-right: 100px;
+    margin-top: 100px;
+}
+
+
+.box {
+    color: rgba(196, 194, 190, 0.823);
+    background: black;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.btn {
+    cursor: pointer;
+    border: 2px solid rgba(196, 194, 190, 0.823);
+    color: rgba(196, 194, 190, 0.823);
+    background: black;
+    padding: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 400px;
+    margin-top: 20px;
+    font: bold;
+    font-size: 20px;
+}
+
+.btn:hover {
+    border: 2px solid rgb(0, 255, 255);
+    text-decoration: underline;
+    color: rgb(0, 255, 255);
+}
+
+
+
+
